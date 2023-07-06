@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 2rem;
     height: 45px;
-    width: 450px;
+    width: 490px;
 
 }
 img {
@@ -26,7 +26,7 @@ img {
     width: 213px;
     box-shadow: 1px 1px;
     border-radius: 18px;
-    margin-left:95px;
+    margin-left:121px;
     
 
 }
@@ -43,7 +43,7 @@ img:hover{
     height: 39px;
     width: 214px;
     text-align: center;
-    margin-left: 97px;
+    margin-left: 121px;
     margin-top:-3px;
     font-size: 26px;
     font-family:cursive;
@@ -55,7 +55,7 @@ img:hover{
     width: 220px;
      
     
-    margin-left: 260px;
+    margin-left: 285px;
     margin-top:-145px;
     font-size: 26px;
     font-family:cursive;
@@ -70,7 +70,7 @@ img:hover{
     height: 136px;
     width: 220px;
     
-    margin-left: 151px;
+    margin-left: 175px;
     margin-top:-96px;
     font-size: 26px;
     font-family:cursive;
@@ -82,7 +82,7 @@ img:hover{
     background-color: rgb(43, 10, 233);
     height: 136px;
     width: 220px;
-    margin-left: 94px;
+    margin-left: 118px;
     margin-top:100px;
     border-radius: 10px;
 }
@@ -92,7 +92,7 @@ img:hover{
   height: 38px;
  width: 220px;
  background-color: rgb(161, 227, 231);
- margin-left: 90px;
+ margin-left: 115px;
  margin-top:-19px;
  font-size: 26px;
  font-family:cursive;
@@ -107,7 +107,7 @@ box-shadow: 5px 5px rgb(16, 99, 16);
      height: 38px;
     width: 220px;
     background-color: rgb(161, 227, 231);
-    margin-left: 90px;
+    margin-left: 115px;
     margin-top:20px;
     font-size: 26px;
     font-family:cursive;
@@ -125,7 +125,7 @@ box-shadow: 5px 5px rgb(16, 99, 16);
        height: 136px;
        width: 220px;
        
-       margin-left: 144px;
+       margin-left: 177px;
        margin-top:-96px;
        font-size: 26px;
        font-family:cursive;
@@ -139,7 +139,7 @@ box-shadow: 5px 5px rgb(16, 99, 16);
     width: 220px;
      
     
-    margin-left: 270px;
+    margin-left: 300px;
     margin-top:-145px;
     font-size: 26px;
     font-family:cursive;
@@ -154,7 +154,7 @@ box-shadow: 5px 5px rgb(16, 99, 16);
        height: 136px;
        width: 220px;
        
-       margin-left: 131px;
+       margin-left: 160px;
        margin-top:-96px;
        font-size: 26px;
        font-family:cursive;
@@ -168,8 +168,8 @@ box-shadow: 5px 5px rgb(16, 99, 16);
     width: 220px;
      
     
-    margin-left: 270px;
-    margin-top:-145px;
+    margin-left: 300px;
+    margin-top:-137px;
     font-size: 26px;
     font-family:cursive;
     border-radius: 10px;
@@ -179,7 +179,7 @@ box-shadow: 5px 5px rgb(16, 99, 16);
     border-radius: 100px;
     height: 37px;
     width: 100px;
-    margin-left: 150px;
+    margin-left: 175px;
    background-color: rgba(56, 60, 26, 0.829);
  
  }
