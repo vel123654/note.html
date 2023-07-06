@@ -1,0 +1,91 @@
+body{
+    background-color: cornflowerblue;
+    
+}
+.cl1{
+   /* background-color: rgb(77, 70, 147);*/
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    height: 38px;
+   width: 316px;
+   background-color: rgb(161, 227, 231);
+   margin-left: 35px;
+   margin-top:33px; 
+   font-size: 26px;
+   font-family:cursive;
+   border-radius: 10px;
+  margin-bottom: 10px;
+  
+  box-shadow: 5px 5px rgb(16, 99, 16);
+}
+
+.x{
+   border-radius: 100px;
+   height: 130px;
+   width: 42px;
+   margin-left: -18px;
+  background-color: rgb(3, 3, 3);
+
+}
+
+.f{
+  margin-top: -142px;
+  font-family: cursive;
+  font-size: 15px;
+  
+}
+
+.d{
+  color: aqua;
+  margin-top: -59px;
+  margin-left: 8px;
+}
+
+.y{
+  background-color: rgb(8, 114, 130);
+  height: 66px;
+  width: 247px;
+  margin-top: -110px;
+  margin-left: 81px;
+}
+
+.y:hover {
+background-color: black;
+}
+
+.i{
+  color: aqua;
+  margin-top: -59px;
+  margin-left: 8px;
+}
+
+.u{
+  background-color: rgb(8, 114, 130);
+  height: 66px;
+  width: 247px;
+  margin-top: 64px;
+  margin-left: 81px;
+}
+
+.u:hover {
+background-color: black;
+
+}
+
+.o{
+  color: aqua;
+  margin-top: -59px;
+  margin-left: 8px;
+}
+
+.p{
+  color: aqua;
+  margin-top: -59px;
+  margin-left: 8px;
+}
+.a{
+  color: aqua;
+  margin-top: -59px;
+  margin-left: 8px;
+}

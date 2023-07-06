@@ -1,0 +1,171 @@
+body{
+    background-color: cornflowerblue;
+    
+
+}
+.cl1{
+    background-color: rgb(77, 70, 147);
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.b{
+    color: black;
+    background-color: aqua;
+    background-size: cover;
+    height: 36px;
+    width: 210px;
+    text-align: center;
+    margin-left: 53px;
+    margin-top:-18px;
+    font-size: 26px;
+    font-family:cursive;
+    border-radius: 10px;
+}
+body{
+    width:100%;
+    height:300vh;
+    box-sizing: border-box;
+    background: rgb(6, 16, 34);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.img1 {
+
+  animation-name: lift;
+  animation-duration: 3s;
+  border-style:solid ;
+  height: 212px;
+  width: 213px;
+  box-shadow: 1px 1px;
+  border-radius: 18px;
+  margin-left:50px;
+  margin-top: 30px;
+
+}
+.img1:hover{
+  border-color:rgb(132, 224, 238);
+  border-width:5px;
+
+}
+
+.img2 {
+    animation-name: right;
+    animation-duration: 3s;
+    border-style:solid ;
+    box-shadow: 15px 15px;
+    height: 212px;
+  width: 213px;
+  box-shadow: 1px 1px;
+  border-radius: 18px;
+  margin-left:50px;
+  
+
+}
+.img2:hover{
+    border-color:rgb(239, 160, 242);
+    border-width:5px;
+
+}
+
+@keyframes right {
+
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+     
+  }
+  80% {
+    opacity: 0.5;
+      transform: translateX(10px);
+     
+  }
+  100% {
+      opacity: 1;
+      transform: translate(0);
+     
+  }
+}
+@keyframes lift {
+
+    0% {
+        opacity: 0;
+        transform: translatex(100px);
+       
+    }
+    80% {
+      opacity: 0.5;
+        transform: translatex(10px);
+       
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+       
+    }
+  }
+  
+.overlay {
+    height: 40%;
+    width: 83%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 86px;
+    left: 35px;
+    background-color: rgb(135, 208, 237);
+    border-top-left-radius:100px ;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius:100px;
+  
+  
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: -30%;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+  }
+  
+  .overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #dde5e8;
+    display: block;
+    transition: 2s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #090909;
+  }
+  
+  .overlay .closebtn {
+    margin-top: 5px;
+    margin-left: 430px;
+    font-size: 60px;
+  }
+  .menu{
+    font-size:30px;
+    cursor:pointer;
+    margin-left: 600px;
+    margin-top: -70px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
