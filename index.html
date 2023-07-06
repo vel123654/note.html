@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vel.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form class="login">
+        <h2>Welcome, User!</h2>
+        <p>Please log in</p>
+        <label for="userID"></label>
+        <input type="text" placeholder="User Name" id="userID"/>
+        <label for="Password"></label>
+        <input type="password" placeholder="Password" id="password" />
+        <input type="submit" value="Log In"  onclick="checkLogin()">
+        <div class="links">
+          <a href="#">Forgot password</a>
+          <a href="#">Register</a>
+        </div>
+      </form>
+      <script>
+        function checkLogin() {
+          
+          var userID = document.getElementById("userID").value;
+          var password = document.getElementById("password").value;
+    
+           if(userID == "" || password == "") {
+            alert("Please enter a User ID and Password");
+            return false;
+          }
+              
+          if(userID == "vel" && password == "00") {
+            window.location.href = "wellcome.html";
+            alert("Login successful!");
+            return true;
+          } 
+         /*else if(userID == "po" && password == "10") {
+            window.location.href ="vel2.html";
+            alert("Login successful!");  
+            return true;
+          }*/
+          else {
+            alert("Invalid User ID or Password. Please try again.");
+            return false;
+          }
+         
+         
+        }
+      </script>
+      
+</body>
+</html>
